@@ -16,9 +16,9 @@
 </head>
 
 <body>
-    @include('partials.header')
+    @include('layouts.partials.headers')
     @yield('content')
-    @include('partials.footer')
+    @include('layouts.partials.footer')
 </body>
 
 </html>
